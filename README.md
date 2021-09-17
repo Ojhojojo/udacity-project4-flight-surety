@@ -15,12 +15,20 @@ To install, download or clone the repo, then:
 
 To run truffle tests:
 
+Open a separate terminal, and first run:
+
+`ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster" --accounts=50`
+
+And back to the main terminal, run:
+
 `truffle test ./test/flightSurety.js`
+
 `truffle test ./test/oracles.js`
 
 To use the dapp:
 
 `truffle migrate`
+
 `npm run dapp`
 
 To view dapp:
@@ -30,6 +38,7 @@ To view dapp:
 ## Develop Server
 
 `npm run server`
+
 `truffle test ./test/oracles.js`
 
 ## Deploy
@@ -51,13 +60,6 @@ Node v15.14.0
 
 Web3.js v1.5.1
 
-<br>
-
-### Contract on Rinkeby Network: 
-0x79ad8de67fbf1699f16b6aef06d57fea8c68f7d0
-### Transaction on Rinkeby Network: 
-0x0d970056e8321919415141c47d03789317fe97608e2ddb97d7843d6f363f091d
-### https://rinkeby.etherscan.io/address/0x79ad8de67fbf1699f16b6aef06d57fea8c68f7d0
 
 <br>
 
